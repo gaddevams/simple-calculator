@@ -15,8 +15,7 @@ operations=(
 
 
 # main function
-if_name_=="_main": # type: ignore
-print("Welcome to simple calcuator, it will do two numbers operations")
+if __name__ == "__main__":
 while True:
     print(*operations)
     choice=int(input("please select your operation(1-6):"))
