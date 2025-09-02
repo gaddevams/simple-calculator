@@ -16,7 +16,6 @@ operations=(
 
 # main function
 if __name__ == "__main__":
-while True:
     print(*operations)
     choice=int(input("please select your operation(1-6):"))
     if choice==1:
